@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\STM32F2xx_MC Library.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\UserProject\STM32F2xx_UserProject.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>workspace_rebuild_STM322xG-EVAL</name>
+      <member>
+        <project>STM32F2xx_MC Library</project>
+        <configuration>STM32F2xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F2xx_UserProject</project>
+        <configuration>STM322xG-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STM32F2XX_DUAL</name>
+      <member>
+        <project>STM32F2xx_MC Library</project>
+        <configuration>STM32F2xx_DUAL_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F2xx_UserProject</project>
+        <configuration>STM32F2xx_dual</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

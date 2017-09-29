@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\STM32F0xx_MC Library.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\UserProject\STM32F0xx_UserProject.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>workspace_rebuild_STM320518-EVAL</name>
+      <member>
+        <project>STM32F0xx_MC Library</project>
+        <configuration>STM32F0xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F0xx_UserProject</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STM32072B-EVAL</name>
+      <member>
+        <project>STM32F0xx_MC Library</project>
+        <configuration>STM32F0xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F0xx_UserProject</project>
+        <configuration>STM32072B-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STM32F030</name>
+      <member>
+        <project>STM32F0xx_MC Library</project>
+        <configuration>STM32F0xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F0xx_UserProject</project>
+        <configuration>STM32F030</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STM32SPIN</name>
+      <member>
+        <project>STM32F0xx_MC Library</project>
+        <configuration>STM32F0xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F0xx_UserProject</project>
+        <configuration>STM32SPIN</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

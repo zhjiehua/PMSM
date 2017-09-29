@@ -1,0 +1,1 @@
+copy .\STM322xG-EVAL\STM322xG-EVAL.hex ..\hex

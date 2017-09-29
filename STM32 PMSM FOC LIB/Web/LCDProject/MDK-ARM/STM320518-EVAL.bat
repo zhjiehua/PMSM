@@ -1,0 +1,1 @@
+copy .\STM320518-EVAL\STM320518-EVAL.hex ..\hex

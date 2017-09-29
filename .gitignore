@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+STM32 PMSM FOC LIB\Web/Project\MDK-ARM/MC_Library_Compiled/STM32F10x_DD
+STM32 PMSM FOC LIB\Web/Project\MDK-ARM/MC_Library_Compiled/STM32F10x_SD
+STM32 PMSM FOC LIB/Web/Project/MDK-ARM/UserProject/STM3210B-EVAL
+STM32 PMSM FOC LIB/Web/Project/MDK-ARM/UserProject/STM3210E-EVAL

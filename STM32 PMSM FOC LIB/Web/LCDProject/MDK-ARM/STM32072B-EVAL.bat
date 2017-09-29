@@ -1,0 +1,1 @@
+copy .\STM32072B-EVAL\STM32072B-EVAL.hex ..\hex

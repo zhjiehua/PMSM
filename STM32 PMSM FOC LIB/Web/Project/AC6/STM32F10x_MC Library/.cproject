@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990" moduleId="org.eclipse.cdt.core.settings" name="STM32F10x_SINGLE_DRIVE">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/STM32F10x_MC Library"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/STM32F10x_MC Library/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/STM32F10x_MC Library/STM32F10x_SINGLE_DRIVE"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="..\..\MC Library Compiled\libMC_Library_STM32F10x_single_drive" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="..\..\MC Library Compiled\libMC_Library_STM32F10x_single_drive" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990" name="STM32F10x_SINGLE_DRIVE" parent="fr.ac6.managedbuild.config.gnu.cross.lib.debug">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug.35925944" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.2076873163" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F103RBTx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.2093835062" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="NUCLEO-F103RB" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.420233883" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/STM32F10x_MC Library}/Debug" id="fr.ac6.managedbuild.builder.gnu.cross.887971180" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="fr.ac6.managedbuild.builder.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1459269762" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1784509750" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1116576444" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.969735739" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F10X_HD"/>
+									<listOptionValue builtIn="false" value="MC_LIBRARY_SINGLE"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.1256868432" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary\interface&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary\interface\common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary\inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\..\Common\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\..\Common\Libraries\CMSIS\CM3\CoreSupport&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\..\Common\Libraries\STM32F10x_StdPeriph_Driver\inc&quot;"/>
+								</option>
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata.779249053" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1215296565" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.467538034" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1876891419" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1074256648" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1189912013" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.565065362" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1771234526" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1131247428" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.791858398" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.2075178809" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.740785767" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.299532667" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/Rdivider_F30X_BusVoltageSensorClass.c|src/Rdivider_F0XX_BusVoltageSensorClass.c|src/R3_F4XX_PWMnCurrFdbkClass.c|src/R3_F2XX_PWMnCurrFdbkClass.c|src/R3_F0XX_PWMnCurrFdbkClass.c|src/R3_4_F30X_PWMnCurrFdbkClass.c|src/R3_2_F30X_PWMnCurrFdbkClass.c|src/R3_1_F30X_PWMnCurrFdbkClass.c|src/R1_F4XX_PWMnCurrFdbkClass.c|src/R1_F30X_PWMnCurrFdbkClass.c|src/R1_F2XX_PWMnCurrFdbkClass.c|src/R1_F0XX_PWMnCurrFdbkClass.c|src/NTC_F30X_TemperatureSensorClass.c|src/NTC_F0XX_TemperatureSensorClass.c|src/ICS_F4XX_PWMnCurrFdbkClass.c|src/ICS_F30X_PWMnCurrFdbkClass.c|src/ICS_F2XX_PWMnCurrFdbkClass.c|src/HiFreqInj_FPU_SpeednPosFdbkClass.c|src/HiFreqInj_FPU_CtrlClass.c|src/HALL_F4xx_SpeednPosFdbkClass.c|src/HALL_F30X_SpeednPosFdbkClass.c|src/HALL_F2xx_SpeednPosFdbkClass.c|src/HALL_F0xx_SpeednPosFdbkClass.c|src/GAP_F4xx_GateDriverCtrlClass.c|src/GAP_F3xx_GateDriverCtrlClass.c|src/ENC_F4xx_SpeednPosFdbkClass.c|src/ENC_F30X_SpeednPosFdbkClass.c|src/ENC_F2xx_SpeednPosFdbkClass.c|src/ENC_F0xx_SpeednPosFdbkClass.c|src/DigitalOutputClass_F4XX.c|src/DigitalOutputClass_F30X.c|src/DigitalOutputClass_F2XX.c|src/DigitalOutputClass_F0XX.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990.324447638">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990.324447638" moduleId="org.eclipse.cdt.core.settings" name="STM32F10x_DUAL_DRIVE">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/STM32F10x_MC Library"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/STM32F10x_MC Library/STM32F10x_DUAL_DRIVE"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="..\..\MC Library Compiled\libMC_Library_STM32F10x_dual_drive" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="..\..\MC Library Compiled\libMC_Library_STM32F10x_dual_drive" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990.324447638" name="STM32F10x_DUAL_DRIVE" parent="fr.ac6.managedbuild.config.gnu.cross.lib.debug">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990.324447638." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug.1066634900" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.926724424" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F103RBTx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.2022621837" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="NUCLEO-F103RB" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.1764525511" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/STM32F10x_MC Library}/Debug" id="fr.ac6.managedbuild.builder.gnu.cross.1102338558" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="fr.ac6.managedbuild.builder.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1036989622" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1938075319" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.485918715" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1381279734" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_STDPERIPH_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F10X_HD"/>
+									<listOptionValue builtIn="false" value="MC_LIBRARY_DUAL"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.945123022" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary\interface&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary\interface\common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\MCLibrary\inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\..\Common\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\..\Common\Libraries\CMSIS\CM3\CoreSupport&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\..\..\..\..\..\Common\Libraries\STM32F10x_StdPeriph_Driver\inc&quot;"/>
+								</option>
+								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata.107843937" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.285389972" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1014992310" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.522316735" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.683526051" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1536780267" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.992995090" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1062575683" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1968887152" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.301811461" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.875482020" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.940656399" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.363858194" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/Rdivider_F30X_BusVoltageSensorClass.c|src/Rdivider_F0XX_BusVoltageSensorClass.c|src/R3_F4XX_PWMnCurrFdbkClass.c|src/R3_F2XX_PWMnCurrFdbkClass.c|src/R3_F0XX_PWMnCurrFdbkClass.c|src/R3_4_F30X_PWMnCurrFdbkClass.c|src/R3_2_F30X_PWMnCurrFdbkClass.c|src/R3_1_F30X_PWMnCurrFdbkClass.c|src/R1_F4XX_PWMnCurrFdbkClass.c|src/R1_F30X_PWMnCurrFdbkClass.c|src/R1_F2XX_PWMnCurrFdbkClass.c|src/R1_F0XX_PWMnCurrFdbkClass.c|src/NTC_F30X_TemperatureSensorClass.c|src/NTC_F0XX_TemperatureSensorClass.c|src/ICS_F4XX_PWMnCurrFdbkClass.c|src/ICS_F30X_PWMnCurrFdbkClass.c|src/ICS_F2XX_PWMnCurrFdbkClass.c|src/HiFreqInj_FPU_SpeednPosFdbkClass.c|src/HiFreqInj_FPU_CtrlClass.c|src/HALL_F4xx_SpeednPosFdbkClass.c|src/HALL_F30X_SpeednPosFdbkClass.c|src/HALL_F2xx_SpeednPosFdbkClass.c|src/HALL_F0xx_SpeednPosFdbkClass.c|src/GAP_F4xx_GateDriverCtrlClass.c|src/GAP_F3xx_GateDriverCtrlClass.c|src/ENC_F4xx_SpeednPosFdbkClass.c|src/ENC_F30X_SpeednPosFdbkClass.c|src/ENC_F2xx_SpeednPosFdbkClass.c|src/ENC_F0xx_SpeednPosFdbkClass.c|src/DigitalOutputClass_F4XX.c|src/DigitalOutputClass_F30X.c|src/DigitalOutputClass_F2XX.c|src/DigitalOutputClass_F0XX.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="STM32F10x_MC Library.fr.ac6.managedbuild.target.gnu.cross.lib.2072406333" name="Static Library" projectType="fr.ac6.managedbuild.target.gnu.cross.lib"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990;fr.ac6.managedbuild.config.gnu.cross.lib.debug.112409990.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1459269762;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1215296565">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>

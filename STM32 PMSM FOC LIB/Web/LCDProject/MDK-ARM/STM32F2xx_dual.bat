@@ -1,0 +1,1 @@
+copy .\STM32F2xx_dual\STM32F2xx_dual.hex ..\hex

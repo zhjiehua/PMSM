@@ -1,0 +1,1 @@
+copy .\STM32100B-EVAL\STM32100B-EVAL.hex ..\hex

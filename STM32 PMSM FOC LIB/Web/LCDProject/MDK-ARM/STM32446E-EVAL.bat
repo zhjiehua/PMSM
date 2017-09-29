@@ -1,0 +1,1 @@
+copy .\STM32446-EVAL\STM32446E-EVAL.hex ..\hex

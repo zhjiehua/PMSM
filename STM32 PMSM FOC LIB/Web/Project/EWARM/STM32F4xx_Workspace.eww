@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\STM32F4xx_MC Library.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\UserProject\STM32F4xx_UserProject.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>workspace_rebuild_STM324xG-EVAL</name>
+      <member>
+        <project>STM32F4xx_MC Library</project>
+        <configuration>STM32F4xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F4xx_UserProject</project>
+        <configuration>STM324xG-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STEVAL-IHM039V1_DUALDRIVE</name>
+      <member>
+        <project>STM32F4xx_MC Library</project>
+        <configuration>STM32F4xx_DUAL_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F4xx_UserProject</project>
+        <configuration>STEVAL-IHM039V1_DUALDRIVE</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STEVAL-IHM039V1_SINGLEDRIVE</name>
+      <member>
+        <project>STM32F4xx_MC Library</project>
+        <configuration>STM32F4xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F4xx_UserProject</project>
+        <configuration>STEVAL-IHM039V1_SINGLEDRIVE</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>worspace_rebuild_STM32446E-EVAL</name>
+      <member>
+        <project>STM32F4xx_MC Library</project>
+        <configuration>STM32F4xx_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F4xx_UserProject</project>
+        <configuration>STM32446E-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>worspace_rebuild_STM32F446_DUAL_DRIVE</name>
+      <member>
+        <project>STM32F4xx_MC Library</project>
+        <configuration>STM32F4xx_DUAL_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F4xx_UserProject</project>
+        <configuration>STM32F446_DUAL_DRIVE</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

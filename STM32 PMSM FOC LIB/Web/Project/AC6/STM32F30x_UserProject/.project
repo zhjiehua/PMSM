@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>STM32F30x_UserProject</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>fr.ac6.mcu.ide.core.MCUProjectNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Motor control</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Project</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Std project template</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>UI Library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Motor control/MC Application</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Project/GAPApplication.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/GAPApplication.c</locationURI>
+		</link>
+		<link>
+			<name>Project/Timebase.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Timebase.c</locationURI>
+		</link>
+		<link>
+			<name>Project/UITask.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/UITask.c</locationURI>
+		</link>
+		<link>
+			<name>Project/main.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/main.c</locationURI>
+		</link>
+		<link>
+			<name>Project/stm32f30x_MC_it.c</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/SystemDriveParams/stm32f30x_MC_it.c</locationURI>
+		</link>
+		<link>
+			<name>Project/stm32f30x_it.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32f30x_it.c</locationURI>
+		</link>
+		<link>
+			<name>Std project template/CMSIS</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Std project template/src</name>
+			<type>2</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Common/Libraries/STM32F30x_StdPeriph_Driver/src</locationURI>
+		</link>
+		<link>
+			<name>UI Library/src</name>
+			<type>2</type>
+			<locationURI>PARENT-3-PROJECT_LOC/UILibrary/src</locationURI>
+		</link>
+		<link>
+			<name>Motor control/MC Application/src</name>
+			<type>2</type>
+			<locationURI>PARENT-3-PROJECT_LOC/MCApplication/src</locationURI>
+		</link>
+		<link>
+			<name>Std project template/CMSIS/system_stm32f30x.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Common/Libraries/CMSIS/CMSIS_2_x/Device/ST/STM32F30x/Source/Templates/system_stm32f30x.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

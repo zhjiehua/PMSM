@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\UserProject\STM32F30x_Examples.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\STM32F30x_MC Library.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>X-NUCLEO-IHM07M1 - MODE</name>
+      <member>
+        <project>STM32F30x_MC Library</project>
+        <configuration>STM32F302x8_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F30x_Examples</project>
+        <configuration>X-NUCLEO-IHM07M1 - MODE</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>X-NUCLEO-IHM07M1 - PI</name>
+      <member>
+        <project>STM32F30x_MC Library</project>
+        <configuration>STM32F302x8_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F30x_Examples</project>
+        <configuration>X-NUCLEO-IHM07M1 - PI</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>X-NUCLEO-IHM07M1 - Potentiometer</name>
+      <member>
+        <project>STM32F30x_MC Library</project>
+        <configuration>STM32F302x8_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F30x_Examples</project>
+        <configuration>X-NUCLEO-IHM07M1 - Potentiometer</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>X-NUCLEO-IHM07M1 - Ramp</name>
+      <member>
+        <project>STM32F30x_MC Library</project>
+        <configuration>STM32F302x8_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F30x_Examples</project>
+        <configuration>X-NUCLEO-IHM07M1 - Ramp</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

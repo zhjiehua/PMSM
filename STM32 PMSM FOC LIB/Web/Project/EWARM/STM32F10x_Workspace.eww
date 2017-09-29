@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\STM32F10x_MC Library.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\PFC_Project\EWARM\STM32F10x_PFC_Project.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\UserProject\STM32F10x_UserProject.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>workspace_rebuild_STM32100B-EVAL</name>
+      <member>
+        <project>STM32F10x_MC Library</project>
+        <configuration>STM32F10x_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_UserProject</project>
+        <configuration>STM32100B-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STM3210B-EVAL</name>
+      <member>
+        <project>STM32F10x_MC Library</project>
+        <configuration>STM32F10x_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_UserProject</project>
+        <configuration>STM3210B-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STM3210E-EVAL</name>
+      <member>
+        <project>STM32F10x_MC Library</project>
+        <configuration>STM32F10x_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_PFC_Project</project>
+        <configuration>RELEASE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_UserProject</project>
+        <configuration>STM3210E-EVAL</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STEVAL-IHM022V1_DUAL</name>
+      <member>
+        <project>STM32F10x_MC Library</project>
+        <configuration>STM32F10x_DUAL_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_PFC_Project</project>
+        <configuration>RELEASE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_UserProject</project>
+        <configuration>STEVAL-IHM022V1_DUALDRIVE</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>workspace_rebuild_STEVAL-IHM022V1_SINGLE</name>
+      <member>
+        <project>STM32F10x_MC Library</project>
+        <configuration>STM32F10x_SINGLE_DRIVE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_PFC_Project</project>
+        <configuration>RELEASE</configuration>
+      </member>
+      <member>
+        <project>STM32F10x_UserProject</project>
+        <configuration>STEVAL-IHM022V1_SINGLEDRIVE</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
